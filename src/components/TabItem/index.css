@@ -1,0 +1,57 @@
+.each-tab-item {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #7b8794;
+  margin-bottom: 0px;
+  height: 45px;
+  width: 80px;
+}
+
+.tab-names-line {
+  margin-top: 0px;
+  height: 2px;
+  background-color: #7b8794;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+.active-tab-item {
+  border-bottom: 3px solid #2563eb;
+  color: #2563eb;
+}
+
+.tab-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+.active-button {
+  color: #2563eb;
+}
+
+@media screen and (max-width: 768px) {
+  .each-tab-item {
+    font-size: 15px;
+    height: 45px;
+  }
+  .tab-names-line {
+    height: 3px;
+  }
+
+  .tab-name {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .active-tab-name {
+    margin-top: 13px;
+  }
+}
